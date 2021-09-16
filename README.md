@@ -81,14 +81,18 @@ Una ves los datos estan en la base de datos exportamos los datos en forma de "cs
    
    **SQL**
     **ONLINEGAMES**
-    ![Mapping Datos "ONLINE GAMES"](./Imagenes/Gamees.jpeg) 
+    ![Mapping Datos "ONLINE GAMES"](./Imagenes/Gamees.jpeg).
+    MAPPING COVID19
     **Covid19***
     ![Mapping Datos "Covid-19"](./Imagenes/covid19.jpeg)
     **INEC**
+    Mapping INEC
     ![Mapping Datos "Comparacion Guayas-Pichincha"](./Imagenes/Comparacion.jpeg)
     ![Mapping Datos "Guayas"](./Imagenes/guayas.jpeg)
     ![Mapping Datos "Pichincha"](./Imagenes/Pichcincha.jpeg)
+    Mapping NoSQL
    **NoSQL**
+    Mapping datos
     ![Mapping Datos "FB"](./Imagenes/FB.jpeg)
     ![Mapping Datos "TWITTER"](./Imagenes/twitter.jpeg)
    
