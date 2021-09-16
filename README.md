@@ -57,46 +57,41 @@ Una ves los datos estan en la base de datos exportamos los datos en forma de "cs
   **1. Kibana**
     Se subieron los datos csv antes mencionalos estos datos son "ONLINE GAMES", "Covid-19" y los datos exportados de phpMyadmin "Pichincha.csv", "Guayas.csv" y "Comparacion.csv" cada uno de estos datos se subio a kibana de manera manual.
     
-  ![Kibana indices csv ]
+![Kibana indices csv ]
     
  **2. Linea de Comandos**
  Los datos NoSQL se crearon los indices mediante la linea de comando, desde los scripts se realizo una conexion a couchdb y con el uso de los archivos de configuracion se pueden subir los datos a ElasticSearch de manera facil y sencilla. 
+ 
+ ![Linea de comando de COUCH-LOGSTAH FACEBOOK para subir ElasticSearch]
+ 
+ ![Linea de comando de COUCH-LOGSTAH TWITTER para subir ElasticSearch]
   
-  ![Linea de comando de COUCH-LOGSTAH FACEBOOK para subir ElasticSearch]
-  ![Linea de comando de COUCH-LOGSTAH TWITTER para subir ElasticSearch]
   
  De esta menera se crearon los indices que tenemos disponibles dentro de ElasticSearch.
  
- # 4. Versiones de desarrollo
-  **1. Visual Estudio Code**
-  
-  >Version 1.60.0
+ # 3. Creación de mapping
+  **Herramienta ElasticSearch**
+   Una ves tengamos los indices de los datos dentro de nuestro datalake "ElasticSearch" realizamos el mapping de las base de datos por cada una de las bases ingresadas.
    
-  **2. React**
-  
-   >Version 0.1.0
+   **SQL**
+    >Online Games
+   ![Mapping Datos "ONLINE GAMES"] 
+    >Covid 19
+   ![Mapping Datos "Covid-19"]
+    >INEC
+    ![Mapping Datos "Comparacion Guayas-Pichincha"]
+    ![Mapping Datos "Guayas"]
+    ![Mapping Datos "Pichincha"]
+    
+   **NoSQL**
+   ![Mapping Datos "FB"]
+   ![Mapping Datos "TWITTER"] 
    
-  **3. Nodejs**
-   >Version 16.6.0
-   
- # 5. Instalación
+ # 4. Cruser
  
-  **1. Clonar el repositorio**
-  
-  >git clone https://github.com/Chriss78Vera/ProyectoCrasftHome.git
-  
-  >cd ProyectoCrasftHome 
-  
-  **2. Instalar dependencias**
-  
-  >npm install 
-  
-  
-  **3. Levantar el Servidor**
-  
-  >npm start
+  ![Cruser]
  
- # 6. Anexos
+ # 5. Anexos
  
  
  En el siguiente enlace se halla los datos estaticos y los  scripts: 
