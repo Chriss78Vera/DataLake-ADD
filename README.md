@@ -36,10 +36,13 @@
  
  **1. La limpieza de datos en el csv***
  Una ves descargados los datos del INEC se tiene que hacer una limpieza manual dentro del archivo csv donde elejimos los datos que queremos utilizar y necesitamos para el analisis de estos datos en el caso de la practica en el mismo archivo.zip que se descarga nos dan los datos de cada una de los csv que nostros vamos a utilizar.
- ![Arquitectura DataLake](./Imagenes/Arquitectura.png)
-    
+  
+  **Datos Pichincha**
+Son los datos que se van a utilizar para el analisis de los datos estos archivos son "csv" y "xls" cada uno para su respectiva funcionalidad.
  ![Datos CSV](./Imagenes/Datos Pichincha.PNG)
-    
+ 
+  **Datos Guayas**
+Son los datos de la provincia de guayas de la misma manera archivos "csv" y "xls".
  ![Datos CSV_Guayaquil](./Imagenes/Datos Guayaquil.PNG)
     
     
