@@ -52,11 +52,11 @@ Son los datos de la provincia de guayas de la misma manera archivos "csv" y "xls
     
  Una ves los datos que se tengan son los que necesitamos procederemos a guardar los datos como "xls" esto es para facilitar la transformacion eh implemtacion de los datos mediante RapidMiner, utilizamos el lector de archivos EXCEL para poder leer el "xls" y tranformalo a CSV con el "Write CSV" esto es porque el phpmyadmin adimte datos "csv" no "xls", para el manejo correcto de la conexion con la base de datos necesitamos levantar el servidor XAMP para poder crear una cuenta dentro de phpmyadmin en el cual debemos tener todos los servicios y crear una base de datos.
  
- ![Arquitectura-RapidMiner]()
+ ![Arquitectura-RapidMiner](./Imagenes/RapidMiner.PNG)
  
  Una ves realizada la conexion procedemos a utilizar el write database para poder crear una tabla donde se almacenen todos los datos que vamos a subir como estos datos INEC tienen una gran cantidad de datos se dividio estos datos en dos provincias las mas grandes del pais "Guayas y Pichincha" para tener una recolecion mas rapida, adicional se creo un csv con 30000 datos de cada canton "Guayaquil y Quito" para facilitarnos el analisis de los datos con estos datos se suben al phpMyadmin.
  
- ![Almacenamiento de PHP](./Imagenes/RapidMiner.PNG)
+ ![Almacenamiento de PHP](./Imagenes/Almacenamiento_PHP.PNG)
 
 Una ves los datos estan en la base de datos exportamos los datos en forma de "csv" arreglando errores y corregiendo fallas para poder leer en logstash y subir a Elastic Search.
 
