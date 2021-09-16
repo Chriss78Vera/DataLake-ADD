@@ -38,10 +38,14 @@
  Una ves descargados los datos del INEC se tiene que hacer una limpieza manual dentro del archivo csv donde elejimos los datos que queremos utilizar y necesitamos para el analisis de estos datos en el caso de la practica en el mismo archivo.zip que se descarga nos dan los datos de cada una de los csv que nostros vamos a utilizar.
   
   **Datos Pichincha**
+  
+  
 Son los datos que se van a utilizar para el analisis de los datos estos archivos son "csv" y "xls" cada uno para su respectiva funcionalidad.
  ![Data](./Imagenes/Datos_Pichincha.PNG)
  
   **Datos Guayas**
+  
+  
 Son los datos de la provincia de guayas de la misma manera archivos "csv" y "xls".
  ![Datos CSV_Guayaquil](./Imagenes/Datos_Guayaquil.PNG)
     
@@ -70,9 +74,14 @@ Una ves los datos estan en la base de datos exportamos los datos en forma de "cs
 
  **2. Linea de Comandos**
  Los datos NoSQL se crearon los indices mediante la linea de comando, desde los scripts se realizo una conexion a couchdb y con el uso de los archivos de configuracion se pueden subir los datos a ElasticSearch de manera facil y sencilla. 
- **Comando Facebook**
+ 
+ Comando Facebook.
+ 
  ![Linea de comando de COUCH-LOGSTAH FACEBOOK para subir ElasticSearch](./Imagenes/Comando_FB.png)
- **Comando Twitter**
+ 
+ 
+ Comando Twitter.
+ 
  ![Linea de comando de COUCH-LOGSTAH TWITTER para subir ElasticSearch](./Imagenes/Comando_Twitter.png)
   
   
