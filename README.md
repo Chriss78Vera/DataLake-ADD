@@ -103,9 +103,9 @@ Una ves los datos estan en la base de datos exportamos los datos en forma de "cs
     
    Por otra parte tenemos los datos del INEC ya que son 3 datos diferentes se les dividira en los siquientes:
    
-   **Provincias**
+   Provincias.
    
-   Comparacion entre las Provincias Guayas y Pichincha"
+   Comparacion entre las Provincias Guayas y Pichincha".
     ![Mapping Datos "Comparacion Guayas-Pichincha"](./Imagenes/Comparacion.jpeg)
     
    Provincia de Guayas.
@@ -115,12 +115,12 @@ Una ves los datos estan en la base de datos exportamos los datos en forma de "cs
     ![Mapping Datos "Pichincha"](./Imagenes/Pichcincha.jpeg)
  
  
-   **NoSQL**
+ NoSQL
    
-   Mapping datos de Facebook
+   Mapping datos de Facebook.
     ![Mapping Datos "FB"](./Imagenes/FB.jpeg)
     
-   Mapping datos Twitter
+   Mapping datos Twitter.
     ![Mapping Datos "TWITTER"](./Imagenes/twitter.jpeg)
    
  # 5. Cruser
