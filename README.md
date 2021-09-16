@@ -39,11 +39,11 @@
   
   **Datos Pichincha**
 Son los datos que se van a utilizar para el analisis de los datos estos archivos son "csv" y "xls" cada uno para su respectiva funcionalidad.
- ![Data](./Imagenes/Datos Pichincha.PNG)
+ ![Data](./Imagenes/Datos_Pichincha.PNG)
  
   **Datos Guayas**
 Son los datos de la provincia de guayas de la misma manera archivos "csv" y "xls".
- ![Datos CSV_Guayaquil](./Imagenes/Datos Guayaquil.PNG)
+ ![Datos CSV_Guayaquil](./Imagenes/Datos_Guayaquil.PNG)
     
     
  Una ves los datos que se tengan son los que necesitamos procederemos a guardar los datos como "xls" esto es para facilitar la transformacion eh implemtacion de los datos mediante RapidMiner, utilizamos el lector de archivos EXCEL para poder leer el "xls" y tranformalo a CSV con el "Write CSV" esto es porque el phpmyadmin adimte datos "csv" no "xls", para el manejo correcto de la conexion con la base de datos necesitamos levantar el servidor XAMP para poder crear una cuenta dentro de phpmyadmin en el cual debemos tener todos los servicios y crear una base de datos.
