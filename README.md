@@ -78,13 +78,8 @@ Una ves los datos estan en la base de datos exportamos los datos en forma de "cs
  # 4. Creación de mapping
   **Herramienta ElasticSearch**
    Una ves tengamos los indices de los datos dentro de nuestro datalake "ElasticSearch" realizamos el mapping de las base de datos por cada una de las bases ingresadas.
-    **ONLINEGAMES**
     ![Mapping Datos "ONLINE GAMES"](./Imagenes/Gamees.jpeg).
-    MAPPING COVID19
-    **Covid19***
     ![Mapping Datos "Covid-19"](./Imagenes/covid19.jpeg)
-    **INEC**
-    Mapping INEC
     ![Mapping Datos "Comparacion Guayas-Pichincha"](./Imagenes/Comparacion.jpeg)
     ![Mapping Datos "Guayas"](./Imagenes/guayas.jpeg)
     ![Mapping Datos "Pichincha"](./Imagenes/Pichcincha.jpeg)
