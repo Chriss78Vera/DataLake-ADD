@@ -39,7 +39,7 @@
   
   **Datos Pichincha**
 Son los datos que se van a utilizar para el analisis de los datos estos archivos son "csv" y "xls" cada uno para su respectiva funcionalidad.
- ![Datos CSV](./Imagenes/Datos Pichincha.PNG)
+ ![Data](./Imagenes/Datos Pichincha.PNG)
  
   **Datos Guayas**
 Son los datos de la provincia de guayas de la misma manera archivos "csv" y "xls".
