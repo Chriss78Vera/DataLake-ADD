@@ -75,11 +75,9 @@ Una ves los datos estan en la base de datos exportamos los datos en forma de "cs
   
  De esta menera se crearon los indices que tenemos disponibles dentro de ElasticSearch.
  
- # 3. Creación de mapping
+ # 4. Creación de mapping
   **Herramienta ElasticSearch**
    Una ves tengamos los indices de los datos dentro de nuestro datalake "ElasticSearch" realizamos el mapping de las base de datos por cada una de las bases ingresadas.
-   
-   **SQL**
     **ONLINEGAMES**
     ![Mapping Datos "ONLINE GAMES"](./Imagenes/Gamees.jpeg).
     MAPPING COVID19
@@ -96,11 +94,11 @@ Una ves los datos estan en la base de datos exportamos los datos en forma de "cs
     ![Mapping Datos "FB"](./Imagenes/FB.jpeg)
     ![Mapping Datos "TWITTER"](./Imagenes/twitter.jpeg)
    
- # 4. Cruser
+ # 5. Cruser
  
   ![Cruser](./Imagenes/Cruser.jpeg)
  
- # 5. Anexos
+ # 6. Anexos
  
  
  En el siguiente enlace se halla los datos estaticos y los  scripts ubicados en un archivo.rar: 
