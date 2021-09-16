@@ -14,7 +14,7 @@
 # Arquitectura DataLake
   Para dar a inicio nuestro proyecto plantemos esta arquitectura para poder extraer los datos SQL y NoSQL, dando asi el analisis respectivo y el almacenamiento de cada uno de estos datos.
   
-  ![Arquitectura DataLake]()
+  ![Arquitectura DataLake](./Imagenes/Arquitectura.png)
     
 # 1. Cosechas
 
@@ -39,11 +39,11 @@
   
   **Datos Pichincha**
 Son los datos que se van a utilizar para el analisis de los datos estos archivos son "csv" y "xls" cada uno para su respectiva funcionalidad.
- ![Data]()
+ ![Data](./Imagenes/Datos_Pichincha.PNG)
  
   **Datos Guayas**
 Son los datos de la provincia de guayas de la misma manera archivos "csv" y "xls".
- ![Datos CSV_Guayaquil]()
+ ![Datos CSV_Guayaquil](./Imagenes/Datos_Guayaquil.PNG)
     
     
  Una ves los datos que se tengan son los que necesitamos procederemos a guardar los datos como "xls" esto es para facilitar la transformacion eh implemtacion de los datos mediante RapidMiner, utilizamos el lector de archivos EXCEL para poder leer el "xls" y tranformalo a CSV con el "Write CSV" esto es porque el phpmyadmin adimte datos "csv" no "xls", para el manejo correcto de la conexion con la base de datos necesitamos levantar el servidor XAMP para poder crear una cuenta dentro de phpmyadmin en el cual debemos tener todos los servicios y crear una base de datos.
@@ -52,11 +52,11 @@ Son los datos de la provincia de guayas de la misma manera archivos "csv" y "xls
  
  Una ves realizada la conexion procedemos a utilizar el write database para poder crear una tabla donde se almacenen todos los datos que vamos a subir como estos datos INEC tienen una gran cantidad de datos se dividio estos datos en dos provincias las mas grandes del pais "Guayas y Pichincha" para tener una recolecion mas rapida, adicional se creo un csv con 30000 datos de cada canton "Guayaquil y Quito" para facilitarnos el analisis de los datos con estos datos se suben al phpMyadmin.
  
- ![Almacenamiento de PHP]()
+ ![Almacenamiento de PHP](./Imagenes/RapidMiner.PNG)
 
 Una ves los datos estan en la base de datos exportamos los datos en forma de "csv" arreglando errores y corregiendo fallas para poder leer en logstash y subir a Elastic Search.
 
-![Exportacion de datos]()
+![Exportacion de datos](./Imagenes/Exportacion.PNG)
 
  # 3. Creacion de indices 
  
@@ -65,36 +65,58 @@ Una ves los datos estan en la base de datos exportamos los datos en forma de "cs
   **1. Kibana**
     Se subieron los datos csv antes mencionalos estos datos son "ONLINE GAMES", "Covid-19" y los datos exportados de phpMyadmin "Pichincha.csv", "Guayas.csv" y "Comparacion.csv" cada uno de estos datos se subio a kibana de manera manual.
     
-![Kibana indices csv ]()
-![Kibana indices csv ]()  
+![Kibana indices csv ](./Imagenes/Datos_CSV.jpeg)
+
 
  **2. Linea de Comandos**
  Los datos NoSQL se crearon los indices mediante la linea de comando, desde los scripts se realizo una conexion a couchdb y con el uso de los archivos de configuracion se pueden subir los datos a ElasticSearch de manera facil y sencilla. 
- 
- ![Linea de comando de COUCH-LOGSTAH FACEBOOK para subir ElasticSearch]()
- 
- ![Linea de comando de COUCH-LOGSTAH TWITTER para subir ElasticSearch]()
+ **Comando Facebook**
+ ![Linea de comando de COUCH-LOGSTAH FACEBOOK para subir ElasticSearch](./Imagenes/Comando_FB.png)
+ **Comando Twitter**
+ ![Linea de comando de COUCH-LOGSTAH TWITTER para subir ElasticSearch](./Imagenes/Comando_Twitter.png)
   
   
  De esta menera se crearon los indices que tenemos disponibles dentro de ElasticSearch.
  
  # 4. Creación de mapping
+ 
   **Herramienta ElasticSearch**
+  
    Una ves tengamos los indices de los datos dentro de nuestro datalake "ElasticSearch" realizamos el mapping de las base de datos por cada una de las bases ingresadas.
-    ![Mapping Datos "ONLINE GAMES"]().
-    ![Mapping Datos "Covid-19"]()
-    ![Mapping Datos "Comparacion Guayas-Pichincha"]()
-    ![Mapping Datos "Guayas"]()
-    ![Mapping Datos "Pichincha"]()
-    Mapping NoSQL
+   
+  
+   Con la ayuda de Elastic Search se puede sacar el mapeo de los datos de "Online Games".
+    ![Mapping Datos "ONLINE GAMES"](./Imagenes/Gamees.jpeg).
+    
+    
+   Con la ayuda de Elastic Search se puede sacar el mapeo de los datos de "Covid19".
+    ![Mapping Datos "Covid-19"](./Imagenes/covid19.jpeg)
+    
+   Por otra parte tenemos los datos del INEC ya que son 3 datos diferentes se les dividira en los siquientes:
+   
+   **Provincias**
+   
+   Comparacion entre las Provincias Guayas y Pichincha"
+    ![Mapping Datos "Comparacion Guayas-Pichincha"](./Imagenes/Comparacion.jpeg)
+    
+   Provincia de Guayas.
+    ![Mapping Datos "Guayas"](./Imagenes/guayas.jpeg)
+    
+   Provincia de Pichincha.
+    ![Mapping Datos "Pichincha"](./Imagenes/Pichcincha.jpeg)
+ 
+ 
    **NoSQL**
-    Mapping datos
-    ![Mapping Datos "FB"](
-    ![Mapping Datos "TWITTER"])
+   
+   Mapping datos de Facebook
+    ![Mapping Datos "FB"](./Imagenes/FB.jpeg)
+    
+   Mapping datos Twitter
+    ![Mapping Datos "TWITTER"](./Imagenes/twitter.jpeg)
    
  # 5. Cruser
  
-  ![Cruser]
+  ![Cruser](./Imagenes/Cruser.jpeg)
  
  # 6. Anexos
  
