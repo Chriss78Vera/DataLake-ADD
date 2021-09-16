@@ -106,22 +106,27 @@ Una ves los datos estan en la base de datos exportamos los datos en forma de "cs
    Provincias.
    
    Comparacion entre las Provincias Guayas y Pichincha".
-    ![Mapping Datos "Comparacion Guayas-Pichincha"](./Imagenes/Comparacion.jpeg)
+   
+   ![Mapping Datos "Comparacion Guayas-Pichincha"](./Imagenes/Comparacion.jpeg)
     
    Provincia de Guayas.
-    ![Mapping Datos "Guayas"](./Imagenes/guayas.jpeg)
+   
+   ![Mapping Datos "Guayas"](./Imagenes/guayas.jpeg)
     
    Provincia de Pichincha.
-    ![Mapping Datos "Pichincha"](./Imagenes/Pichcincha.jpeg)
+   
+   ![Mapping Datos "Pichincha"](./Imagenes/Pichcincha.jpeg)
  
  
  NoSQL
    
    Mapping datos de Facebook.
-    ![Mapping Datos "FB"](./Imagenes/FB.jpeg)
+   
+   ![Mapping Datos "FB"](./Imagenes/FB.jpeg)
     
    Mapping datos Twitter.
-    ![Mapping Datos "TWITTER"](./Imagenes/twitter.jpeg)
+   
+   ![Mapping Datos "TWITTER"](./Imagenes/twitter.jpeg)
    
  # 5. Cruser
  
