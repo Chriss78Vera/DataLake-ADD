@@ -35,9 +35,10 @@
  Para la implementacion de los datos descargados del INEC se realizo una transformacion de datos:
   #1. La limpieza de datos en el csv
     Una ves descargados los datos del INEC se tiene que hacer una limpieza manual dentro del archivo csv donde elejimos los datos que queremos utilizar y necesitamos para el analisis de estos datos en el caso de la practica en el mismo archivo.zip que se descarga nos dan los datos de cada una de los csv que nostros vamos a utilizar.
-    ![Datos CSV](./Imagenes/Datos Pichincha.PNG)
     
-    ![Datos CSV_Guayaquil](./Imagenes/Datos Guayaquil.PNG)
+   ![Datos CSV](./Imagenes/Datos Pichincha.PNG)
+    
+   ![Datos CSV_Guayaquil](./Imagenes/Datos Guayaquil.PNG)
     
     
  Una ves los datos que se tengan son los que necesitamos procederemos a guardar los datos como "xls" esto es para facilitar la transformacion eh implemtacion de los datos mediante RapidMiner, utilizamos el lector de archivos EXCEL para poder leer el "xls" y tranformalo a CSV con el "Write CSV" esto es porque el phpmyadmin adimte datos "csv" no "xls", para el manejo correcto de la conexion con la base de datos necesitamos levantar el servidor XAMP para poder crear una cuenta dentro de phpmyadmin en el cual debemos tener todos los servicios y crear una base de datos.
