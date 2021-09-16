@@ -14,7 +14,7 @@
 # Arquitectura DataLake
   Para dar a inicio nuestro proyecto plantemos esta arquitectura para poder extraer los datos SQL y NoSQL, dando asi el analisis respectivo y el almacenamiento de cada uno de estos datos.
   
-  ![Arquitectura DataLake] (./Imagenes/Arquitectura.png)
+  ![Arquitectura DataLake] (.Imagenes/Arquitectura.png)
     
 # 1. Cosechas
 
